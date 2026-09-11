@@ -1,0 +1,1509 @@
+{
+  "purpose": "QNN profiling smoke test only; not for accuracy validation",
+  "token_id": 151643,
+  "device_root": "/data/local/tmp/genie_qwen25_qnn_htp_profile/qnn_inputs",
+  "graphs": [
+    {
+      "name": "ar128_cl4096_2_of_2",
+      "metadata_file": "graph1.json",
+      "inputs": [
+        {
+          "name": "attention_mask",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_16",
+          "dimensions": [
+            1,
+            1,
+            128,
+            4096
+          ],
+          "element_count": 524288,
+          "native_fill_value": 65535,
+          "byte_size": 1048576,
+          "file": "attention_mask.raw"
+        },
+        {
+          "name": "past_key_3_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_3_in.raw"
+        },
+        {
+          "name": "past_value_3_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_3_in.raw"
+        },
+        {
+          "name": "past_key_4_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_4_in.raw"
+        },
+        {
+          "name": "past_value_4_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_4_in.raw"
+        },
+        {
+          "name": "past_key_5_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_5_in.raw"
+        },
+        {
+          "name": "past_value_5_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_5_in.raw"
+        },
+        {
+          "name": "past_key_6_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_6_in.raw"
+        },
+        {
+          "name": "past_value_6_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_6_in.raw"
+        },
+        {
+          "name": "past_key_7_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_7_in.raw"
+        },
+        {
+          "name": "past_value_7_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_7_in.raw"
+        },
+        {
+          "name": "past_key_8_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_8_in.raw"
+        },
+        {
+          "name": "past_value_8_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_8_in.raw"
+        },
+        {
+          "name": "past_key_9_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_9_in.raw"
+        },
+        {
+          "name": "past_value_9_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_9_in.raw"
+        },
+        {
+          "name": "past_key_10_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_10_in.raw"
+        },
+        {
+          "name": "past_value_10_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_10_in.raw"
+        },
+        {
+          "name": "past_key_0_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_0_in.raw"
+        },
+        {
+          "name": "past_key_1_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_1_in.raw"
+        },
+        {
+          "name": "past_key_11_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_11_in.raw"
+        },
+        {
+          "name": "past_value_11_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_11_in.raw"
+        },
+        {
+          "name": "past_value_1_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_1_in.raw"
+        },
+        {
+          "name": "past_key_12_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_12_in.raw"
+        },
+        {
+          "name": "past_value_12_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_12_in.raw"
+        },
+        {
+          "name": "past_key_13_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_13_in.raw"
+        },
+        {
+          "name": "past_value_13_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_13_in.raw"
+        },
+        {
+          "name": "past_value_0_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_0_in.raw"
+        },
+        {
+          "name": "past_key_14_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_14_in.raw"
+        },
+        {
+          "name": "past_value_14_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_14_in.raw"
+        },
+        {
+          "name": "past_key_15_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_15_in.raw"
+        },
+        {
+          "name": "past_value_15_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_15_in.raw"
+        },
+        {
+          "name": "past_key_16_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_16_in.raw"
+        },
+        {
+          "name": "past_value_16_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_16_in.raw"
+        },
+        {
+          "name": "past_key_17_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_17_in.raw"
+        },
+        {
+          "name": "past_value_17_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_17_in.raw"
+        },
+        {
+          "name": "past_key_18_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_18_in.raw"
+        },
+        {
+          "name": "past_value_18_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_18_in.raw"
+        },
+        {
+          "name": "past_key_19_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_19_in.raw"
+        },
+        {
+          "name": "past_value_19_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_19_in.raw"
+        },
+        {
+          "name": "past_key_20_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_20_in.raw"
+        },
+        {
+          "name": "past_value_20_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_20_in.raw"
+        },
+        {
+          "name": "past_key_2_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_2_in.raw"
+        },
+        {
+          "name": "past_key_21_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_21_in.raw"
+        },
+        {
+          "name": "past_value_21_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_21_in.raw"
+        },
+        {
+          "name": "past_value_2_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_2_in.raw"
+        },
+        {
+          "name": "past_key_22_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_22_in.raw"
+        },
+        {
+          "name": "past_value_22_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_22_in.raw"
+        },
+        {
+          "name": "past_key_23_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            3968
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_key_23_in.raw"
+        },
+        {
+          "name": "past_value_23_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            3968,
+            64
+          ],
+          "element_count": 507904,
+          "native_fill_value": 128,
+          "byte_size": 507904,
+          "file": "past_value_23_in.raw"
+        },
+        {
+          "name": "_model_embed_tokens_Gather_Gather_output_0",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_16",
+          "dimensions": [
+            1,
+            128,
+            896
+          ],
+          "element_count": 114688,
+          "native_fill_value": 35905,
+          "byte_size": 229376,
+          "file": "_model_embed_tokens_Gather_Gather_output_0.raw"
+        },
+        {
+          "name": "position_ids_cos",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_16",
+          "dimensions": [
+            1,
+            1,
+            128,
+            32
+          ],
+          "element_count": 4096,
+          "native_fill_value": 65535,
+          "byte_size": 8192,
+          "file": "position_ids_cos.raw"
+        },
+        {
+          "name": "position_ids_sin",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_16",
+          "dimensions": [
+            1,
+            1,
+            128,
+            32
+          ],
+          "element_count": 4096,
+          "native_fill_value": 32768,
+          "byte_size": 8192,
+          "file": "position_ids_sin.raw"
+        }
+      ]
+    },
+    {
+      "name": "ar1_cl4096_2_of_2",
+      "metadata_file": "graph1.json",
+      "inputs": [
+        {
+          "name": "attention_mask",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_16",
+          "dimensions": [
+            1,
+            1,
+            1,
+            4096
+          ],
+          "element_count": 4096,
+          "native_fill_value": 65535,
+          "byte_size": 8192,
+          "file": "attention_mask.raw"
+        },
+        {
+          "name": "past_key_3_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_3_in.raw"
+        },
+        {
+          "name": "past_value_3_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_3_in.raw"
+        },
+        {
+          "name": "past_key_4_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_4_in.raw"
+        },
+        {
+          "name": "past_value_4_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_4_in.raw"
+        },
+        {
+          "name": "past_key_5_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_5_in.raw"
+        },
+        {
+          "name": "past_value_5_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_5_in.raw"
+        },
+        {
+          "name": "past_key_6_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_6_in.raw"
+        },
+        {
+          "name": "past_value_6_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_6_in.raw"
+        },
+        {
+          "name": "past_key_7_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_7_in.raw"
+        },
+        {
+          "name": "past_value_7_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_7_in.raw"
+        },
+        {
+          "name": "past_key_8_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_8_in.raw"
+        },
+        {
+          "name": "past_value_8_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_8_in.raw"
+        },
+        {
+          "name": "past_key_9_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_9_in.raw"
+        },
+        {
+          "name": "past_value_9_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_9_in.raw"
+        },
+        {
+          "name": "past_key_10_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_10_in.raw"
+        },
+        {
+          "name": "past_value_10_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_10_in.raw"
+        },
+        {
+          "name": "past_key_0_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_0_in.raw"
+        },
+        {
+          "name": "past_key_1_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_1_in.raw"
+        },
+        {
+          "name": "past_key_11_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_11_in.raw"
+        },
+        {
+          "name": "past_value_11_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_11_in.raw"
+        },
+        {
+          "name": "past_value_1_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_1_in.raw"
+        },
+        {
+          "name": "past_key_12_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_12_in.raw"
+        },
+        {
+          "name": "past_value_12_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_12_in.raw"
+        },
+        {
+          "name": "past_key_13_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_13_in.raw"
+        },
+        {
+          "name": "past_value_13_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_13_in.raw"
+        },
+        {
+          "name": "past_value_0_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_0_in.raw"
+        },
+        {
+          "name": "past_key_14_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_14_in.raw"
+        },
+        {
+          "name": "past_value_14_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_14_in.raw"
+        },
+        {
+          "name": "past_key_15_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_15_in.raw"
+        },
+        {
+          "name": "past_value_15_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_15_in.raw"
+        },
+        {
+          "name": "past_key_16_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_16_in.raw"
+        },
+        {
+          "name": "past_value_16_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_16_in.raw"
+        },
+        {
+          "name": "past_key_17_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_17_in.raw"
+        },
+        {
+          "name": "past_value_17_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_17_in.raw"
+        },
+        {
+          "name": "past_key_18_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_18_in.raw"
+        },
+        {
+          "name": "past_value_18_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_18_in.raw"
+        },
+        {
+          "name": "past_key_19_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_19_in.raw"
+        },
+        {
+          "name": "past_value_19_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_19_in.raw"
+        },
+        {
+          "name": "past_key_20_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_20_in.raw"
+        },
+        {
+          "name": "past_value_20_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_20_in.raw"
+        },
+        {
+          "name": "past_key_2_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_2_in.raw"
+        },
+        {
+          "name": "past_key_21_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_21_in.raw"
+        },
+        {
+          "name": "past_value_21_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_21_in.raw"
+        },
+        {
+          "name": "past_value_2_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_2_in.raw"
+        },
+        {
+          "name": "past_key_22_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_22_in.raw"
+        },
+        {
+          "name": "past_value_22_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_22_in.raw"
+        },
+        {
+          "name": "past_key_23_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            64,
+            4095
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_key_23_in.raw"
+        },
+        {
+          "name": "past_value_23_in",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_8",
+          "dimensions": [
+            2,
+            1,
+            4095,
+            64
+          ],
+          "element_count": 524160,
+          "native_fill_value": 128,
+          "byte_size": 524160,
+          "file": "past_value_23_in.raw"
+        },
+        {
+          "name": "_model_embed_tokens_Gather_Gather_output_0",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_16",
+          "dimensions": [
+            1,
+            1,
+            896
+          ],
+          "element_count": 896,
+          "native_fill_value": 35905,
+          "byte_size": 1792,
+          "file": "_model_embed_tokens_Gather_Gather_output_0.raw"
+        },
+        {
+          "name": "position_ids_cos",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_16",
+          "dimensions": [
+            1,
+            1,
+            1,
+            32
+          ],
+          "element_count": 32,
+          "native_fill_value": 65535,
+          "byte_size": 64,
+          "file": "position_ids_cos.raw"
+        },
+        {
+          "name": "position_ids_sin",
+          "data_type": "QNN_DATATYPE_UFIXED_POINT_16",
+          "dimensions": [
+            1,
+            1,
+            1,
+            32
+          ],
+          "element_count": 32,
+          "native_fill_value": 32768,
+          "byte_size": 64,
+          "file": "position_ids_sin.raw"
+        }
+      ]
+    },
+    {
+      "name": "ar128_cl4096_1_of_2",
+      "metadata_file": "graph2.json",
+      "inputs": [
+        {
+          "name": "input_ids",
+          "data_type": "QNN_DATATYPE_INT_32",
+          "dimensions": [
+            1,
+            128
+          ],
+          "element_count": 128,
+          "native_fill_value": 151643,
+          "byte_size": 512,
+          "file": "input_ids.raw"
+        }
+      ]
+    },
+    {
+      "name": "ar1_cl4096_1_of_2",
+      "metadata_file": "graph2.json",
+      "inputs": [
+        {
+          "name": "input_ids",
+          "data_type": "QNN_DATATYPE_INT_32",
+          "dimensions": [
+            1,
+            1
+          ],
+          "element_count": 1,
+          "native_fill_value": 151643,
+          "byte_size": 4,
+          "file": "input_ids.raw"
+        }
+      ]
+    }
+  ]
+}

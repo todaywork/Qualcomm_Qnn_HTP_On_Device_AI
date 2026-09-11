@@ -1,0 +1,10 @@
+{
+  "Datatype": "QNN_DATATYPE_UFIXED_POINT_8",
+  "Rank": 4,
+  "Dimensions": [8,1,128,128],
+  "QuantaziationParams": {
+    "Type": "SCALE_OFFSET",
+    "Scale": 0.059375,
+    "Offset": -128
+  }
+}

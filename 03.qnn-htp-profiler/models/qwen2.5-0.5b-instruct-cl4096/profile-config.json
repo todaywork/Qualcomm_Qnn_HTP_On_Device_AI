@@ -1,0 +1,29 @@
+{
+  "project": "Qwen3GenieDemo",
+  "model_label": "qwen2.5-0.5b-instruct_qnn229_qcs8550_4096",
+  "sdk_root": "../../vendor/qaisw-2.34",
+  "qnn_sdk_root": "../../vendor/qaisw-2.34",
+  "serial": "",
+  "htp_arch": "73",
+  "device_root": "/data/local/tmp/genie_qwen25_qnn_htp_profile",
+  "device_qnn_root": "/data/local/tmp/qnn_htp_verify",
+  "context_binaries": [
+    "qwen2.5-0.5b-instruct_qnn229_qcs8550_4096_1_of_2.serialized.bin",
+    "qwen2.5-0.5b-instruct_qnn229_qcs8550_4096_2_of_2.serialized.bin"
+  ],
+  "genie_config": "qwen2.5-0.5b-instruct-htp.json",
+  "context_length": 4096,
+  "vocab_size": 151936,
+  "num_layers": 24,
+  "num_heads": 14,
+  "kv_dim": 64,
+  "hidden_size": 896,
+  "prompt": "Hello, introduce yourself briefly.",
+  "timeout_seconds": 240,
+  "model_local_dir": "model",
+  "tools_dir": "../../vendor/tools",
+  "output_dir": ".",
+  "levels": ["level1", "level2", "level3"],
+  "app_compat": true,
+  "notes": "Context binary file names are reversed from graph part numbers (1_of_2 file contains graph 2_of_2)."
+}

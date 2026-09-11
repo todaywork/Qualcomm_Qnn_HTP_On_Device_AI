@@ -1,0 +1,41 @@
+input log file location, /data/local/tmp/qwen3_06b_profile/qnn_profile/detailed/prefill/part1/output/qnn-profiling-data_0.log
+qnn-profile-viewer version, v2.48.40.260702151143
+qnn-net-run version, v2.48.40.260702151143
+Backend version, v2.48.40.260702151143
+Msg Timestamp, Message, Time, Unit of Measurement, Timing Source, Event Level, Event Identifier
+57327741712,INIT,126395,US,NETRUN,ROOT,null
+57327741712,INIT,79045,US,BACKEND,ROOT,RPC (load binary) time
+57327741712,INIT,78414,US,BACKEND,ROOT,QNN accelerator (load binary) time
+57327741712,INIT,17648,US,BACKEND,ROOT,Accelerator (load binary) time
+57327741712,INIT,9787,US,BACKEND,ROOT,Accelerator (load binary) time
+57327741712,INIT,9806,US,BACKEND,ROOT,Accelerator (load binary) time
+57327741712,INIT,19748,US,BACKEND,ROOT,Accelerator (load binary) time
+57327741712,INIT,9915,US,BACKEND,ROOT,Accelerator (load binary) time
+57327741712,INIT,9924,US,BACKEND,ROOT,Accelerator (load binary) time
+57327741712,INIT,126304,US,BACKEND,ROOT,QNN (load binary) time
+0,COMPOSE GRAPHS,0,US,NETRUN,ROOT,null
+57327944155,DE-INIT,139799,US,NETRUN,ROOT,null
+57327944155,DE-INIT,14778,US,BACKEND,ROOT,RPC (deinit) time
+57327944155,DE-INIT,13810,US,BACKEND,ROOT,QNN Accelerator (deinit) time
+57327944155,DE-INIT,398,US,BACKEND,ROOT,Accelerator (deinit) time
+57327944155,DE-INIT,2554,US,BACKEND,ROOT,Accelerator (deinit) time
+57327944155,DE-INIT,2589,US,BACKEND,ROOT,Accelerator (deinit) time
+57327944155,DE-INIT,2562,US,BACKEND,ROOT,Accelerator (deinit) time
+57327944155,DE-INIT,2538,US,BACKEND,ROOT,Accelerator (deinit) time
+57327944155,DE-INIT,3069,US,BACKEND,ROOT,Accelerator (deinit) time
+57327944155,DE-INIT,138937,US,BACKEND,ROOT,QNN (deinit) time
+57327798211,EXECUTE,4196,US,NETRUN,ROOT,Graph 0: prompt_ar128_cl512_1_of_2
+57327798211,EXECUTE,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+57327798211,EXECUTE,3954,US,BACKEND,ROOT,RPC (execute) time
+57327798211,EXECUTE,3298,US,BACKEND,ROOT,QNN accelerator (execute) time
+57327798211,EXECUTE,0,COUNT,BACKEND,ROOT,Num times yield occured
+57327798211,EXECUTE,2990,US,BACKEND,ROOT,Time for initial VTCM acquire
+57327798211,EXECUTE,26242,US,BACKEND,ROOT,Time for HVX + HMX power on and acquire
+57327798211,EXECUTE,28391,CYCLES,BACKEND,ROOT,Accelerator (execute) time (cycles)
+57327798211,EXECUTE,0,CYCLES,BACKEND,SUB-EVENT,Input OpId_2 (cycles)
+57327798211,EXECUTE,22816,CYCLES,BACKEND,SUB-EVENT,/model/model/embed_tokens/Gather:OpId_21 (cycles)
+57327798211,EXECUTE,5575,CYCLES,BACKEND,SUB-EVENT,Output OpId_3 (cycles)
+57327798211,EXECUTE,2900,US,BACKEND,ROOT,Accelerator (execute) time
+57327798211,EXECUTE,410,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+57327798211,EXECUTE,4141,US,BACKEND,ROOT,QNN (execute) time
+57327803612,EXECUTE IPS,132.048065,INF/SEC,NETRUN,ROOT,null

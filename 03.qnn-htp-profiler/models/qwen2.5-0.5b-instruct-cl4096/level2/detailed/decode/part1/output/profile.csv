@@ -1,0 +1,33 @@
+input log file location, /data/local/tmp/genie_qwen25_qnn_htp_profile/qnn_profile/detailed/decode/part1/output/qnn-profiling-data_0.log
+qnn-profile-viewer version, v2.34.0.250424201103_119471-auto
+qnn-net-run version, v2.34.0.250424201103_119471-auto
+Backend version, v2.34.0.250424201103_119471-auto
+Msg Timestamp, Message, Time, Unit of Measurement, Timing Source, Event Level, Event Identifier
+55829671402,INIT,50637,US,NETRUN,ROOT,null
+55829671402,INIT,27031,US,BACKEND,ROOT,RPC (load binary) time
+55829671402,INIT,26528,US,BACKEND,ROOT,QNN accelerator (load binary) time
+55829671402,INIT,17516,US,BACKEND,ROOT,Accelerator (load binary) time
+55829671402,INIT,8469,US,BACKEND,ROOT,Accelerator (load binary) time
+55829671402,INIT,50595,US,BACKEND,ROOT,QNN (load binary) time
+0,COMPOSE GRAPHS,0,US,NETRUN,ROOT,null
+55829716211,DE-INIT,23537,US,NETRUN,ROOT,null
+55829716211,DE-INIT,3957,US,BACKEND,ROOT,RPC (deinit) time
+55829716211,DE-INIT,3259,US,BACKEND,ROOT,QNN Accelerator (deinit) time
+55829716211,DE-INIT,346,US,BACKEND,ROOT,Accelerator (deinit) time
+55829716211,DE-INIT,2878,US,BACKEND,ROOT,Accelerator (deinit) time
+55829716211,DE-INIT,23402,US,BACKEND,ROOT,QNN (deinit) time
+55829691890,EXECUTE,7288,US,NETRUN,ROOT,Graph 0: ar1_cl4096_1_of_2
+55829691890,EXECUTE,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+55829691890,EXECUTE,3667,US,BACKEND,ROOT,RPC (execute) time
+55829691890,EXECUTE,3245,US,BACKEND,ROOT,QNN accelerator (execute) time
+55829691890,EXECUTE,0,COUNT,BACKEND,ROOT,Num times yield occured
+55829691890,EXECUTE,1637,US,BACKEND,ROOT,Time for initial VTCM acquire
+55829691890,EXECUTE,27475,US,BACKEND,ROOT,Time for HVX + HMX power on and acquire
+55829691890,EXECUTE,6162,CYCLES,BACKEND,ROOT,Accelerator (execute) time (cycles)
+55829691890,EXECUTE,0,CYCLES,BACKEND,SUB-EVENT,Input OpId_2 (cycles)
+55829691890,EXECUTE,4345,CYCLES,BACKEND,SUB-EVENT,model_embed_tokens_Gather:OpId_21 (cycles)
+55829691890,EXECUTE,1817,CYCLES,BACKEND,SUB-EVENT,Output OpId_3 (cycles)
+55829691890,EXECUTE,2954,US,BACKEND,ROOT,Accelerator (execute) time
+55829691890,EXECUTE,352,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+55829691890,EXECUTE,7253,US,BACKEND,ROOT,QNN (execute) time
+55829692489,EXECUTE IPS,134.898148,INF/SEC,NETRUN,ROOT,null

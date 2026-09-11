@@ -1,0 +1,33 @@
+{
+  "project": "Qwen3-0.6B-HTP-Profile",
+  "model_label": "qwen3-0.6b-geniex_qairt-w4a16-sa8775p",
+  "sdk_root": "../../vendor/qaisw-2.48",
+  "qnn_sdk_root": "../../vendor/qaisw-2.48",
+  "serial": "",
+  "htp_arch": "73",
+  "device_root": "/data/local/tmp/qwen3_06b_profile",
+  "device_qnn_root": "/data/local/tmp/qnn_htp_verify_248",
+  "context_binaries": [
+    "part1_of_2.bin",
+    "part2_of_2.bin"
+  ],
+  "part_mapping": {
+    "part1": { "ctx_index": 0, "graph_suffix": "1_of_2" },
+    "part2": { "ctx_index": 1, "graph_suffix": "2_of_2" }
+  },
+  "genie_config": "genie_config.json",
+  "context_length": 512,
+  "vocab_size": 151936,
+  "num_layers": 28,
+  "num_heads": 8,
+  "kv_dim": 128,
+  "hidden_size": 1024,
+  "system_prompt": "You are a multilingual vehicle control assistant. Extract intent and slots from user commands in any language. Always respond with English JSON only. Do not think or explain.",
+  "prompt": "close the sunroof",
+  "timeout_seconds": 240,
+  "model_local_dir": "model",
+  "tools_dir": "../../vendor/tools",
+  "output_dir": ".",
+  "levels": ["level1", "level2", "level3"],
+  "notes": "Qwen3-0.6B GenieX QAIRT W4A16（ctx bin 由 QAIRT 2.45 生成）。工具链用 2.34：2.46 在本设备上跑 part2 会挂死 fastrpc，2.34 已验证稳定。ctx bin 内含 cl256/512/1024 三套图，context_length 决定 profiling 用哪套。device_qnn_root 用独立目录避免与其他模型工具链互相覆盖。"
+}

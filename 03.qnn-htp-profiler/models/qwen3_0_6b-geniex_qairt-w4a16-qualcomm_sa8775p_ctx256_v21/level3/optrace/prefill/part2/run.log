@@ -1,0 +1,189 @@
+qnn-net-run pid:16583
+qnn-net-run build version: v2.48.40.260702151143
+qnn-net-run log level is : QNN_LOG_LEVEL_INFO
+Processing inference input(s):
+past_key_0_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_0_in.raw
+past_value_0_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_0_in.raw
+past_key_1_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_1_in.raw
+past_value_1_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_1_in.raw
+past_key_2_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_2_in.raw
+past_value_2_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_2_in.raw
+past_key_3_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_3_in.raw
+past_value_3_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_3_in.raw
+past_key_4_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_4_in.raw
+past_value_4_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_4_in.raw
+past_key_5_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_5_in.raw
+past_value_5_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_5_in.raw
+past_key_6_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_6_in.raw
+past_value_6_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_6_in.raw
+past_key_7_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_7_in.raw
+past_value_7_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_7_in.raw
+past_key_8_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_8_in.raw
+past_value_8_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_8_in.raw
+past_key_9_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_9_in.raw
+past_value_9_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_9_in.raw
+past_key_10_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_10_in.raw
+past_value_10_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_10_in.raw
+past_key_11_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_11_in.raw
+past_value_11_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_11_in.raw
+past_key_12_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_12_in.raw
+past_value_12_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_12_in.raw
+past_key_13_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_13_in.raw
+past_value_13_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_13_in.raw
+past_key_14_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_14_in.raw
+past_value_14_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_14_in.raw
+past_key_15_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_15_in.raw
+past_value_15_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_15_in.raw
+past_key_16_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_16_in.raw
+past_value_16_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_16_in.raw
+past_key_17_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_17_in.raw
+past_value_17_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_17_in.raw
+past_key_18_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_18_in.raw
+past_value_18_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_18_in.raw
+past_key_19_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_19_in.raw
+past_value_19_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_19_in.raw
+past_key_20_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_20_in.raw
+past_value_20_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_20_in.raw
+past_key_21_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_21_in.raw
+past_value_21_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_21_in.raw
+past_key_22_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_22_in.raw
+past_value_22_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_22_in.raw
+past_key_23_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_23_in.raw
+past_value_23_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_23_in.raw
+past_key_24_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_24_in.raw
+past_value_24_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_24_in.raw
+past_key_25_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_25_in.raw
+past_value_25_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_25_in.raw
+past_key_26_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_26_in.raw
+past_value_26_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_26_in.raw
+past_key_27_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_key_27_in.raw
+past_value_27_in -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/past_value_27_in.raw
+_model_model_embed_tokens_Gather_output_0 -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/_model_model_embed_tokens_Gather_output_0.raw
+position_ids_cos -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/position_ids_cos.raw
+position_ids_sin -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/position_ids_sin.raw
+attention_mask -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_2_of_2/attention_mask.raw
+Creating context from binary file: /data/local/tmp/qwen3_06b_profile/model/part2_of_2.bin
+Executing Graphs
+Finished Executing Graphs
+Profile artifacts:
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/qnn-profiling-data_0.log
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/logits_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_0_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_0_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_1_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_1_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_2_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_2_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_3_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_3_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_4_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_4_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_5_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_5_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_6_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_6_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_7_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_7_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_8_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_8_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_9_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_9_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_10_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_10_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_11_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_11_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_12_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_12_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_13_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_13_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_14_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_14_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_15_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_15_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_16_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_16_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_17_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_17_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_18_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_18_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_19_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_19_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_20_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_20_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_21_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_21_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_22_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_22_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_23_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_23_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_24_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_24_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_25_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_25_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_26_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_26_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_key_27_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/Result_0/past_value_27_out_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/logits_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_0_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_0_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_1_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_1_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_2_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_2_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_3_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_3_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_4_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_4_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_5_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_5_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_6_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_6_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_7_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_7_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_8_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_8_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_9_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_9_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_10_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_10_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_11_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_11_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_12_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_12_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_13_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_13_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_14_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_14_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_15_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_15_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_16_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_16_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_17_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_17_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_18_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_18_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_19_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_19_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_20_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_20_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_21_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_21_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_22_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_22_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_23_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_23_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_24_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_24_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_25_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_25_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_26_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_26_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_key_27_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/prompt_ar128_cl512_2_of_2/past_value_27_out_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/optrace/prefill/part2/output/execution_metadata.yaml
+Converting profiling log to CSV...
+    Backend (Accelerator (execute excluding wait) time): 83132 us
+    Backend (QNN (execute) time): 1522704 us
+
+profile.csv generated.

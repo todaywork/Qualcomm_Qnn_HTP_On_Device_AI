@@ -1,0 +1,28 @@
+---
+timestamp: 55833801479
+command: /data/local/tmp/qnn_htp_verify/bin/qnn-net-run --backend /data/local/tmp/qnn_htp_verify/lib/libQnnHtp.so --retrieve_context /data/local/tmp/genie_qwen25_qnn_htp_profile/model/qwen2.5-0.5b-instruct_qnn229_qcs8550_4096_2_of_2.serialized.bin --input_list /data/local/tmp/genie_qwen25_qnn_htp_profile/qnn_inputs/ar128_cl4096_1_of_2/input_list.txt,__ --output_dir /data/local/tmp/genie_qwen25_qnn_htp_profile/qnn_profile/optrace/prefill/part1/output --profiling_level detailed --profiling_option optrace --perf_profile burst --use_native_input_files --use_native_output_files --num_inferences 1 --keep_num_outputs 1 --log_level info
+execution_mode: synchronous
+inferences_completed: 1
+graphs:
+  - graph_name: ar128_cl4096_1_of_2
+    input_tensors:
+    - tensor_name: input_ids
+      id: 2
+      datatype: QNN_DATATYPE_INT_32
+      dimensions: [1,128]
+    output_tensors:
+    - tensor_name: _model_embed_tokens_Gather_Gather_output_0
+      id: 3
+      datatype: QNN_DATATYPE_UFIXED_POINT_16
+      dimensions: [1,128,896]
+  - graph_name: ar1_cl4096_1_of_2
+    input_tensors:
+    - tensor_name: input_ids
+      id: 5
+      datatype: QNN_DATATYPE_INT_32
+      dimensions: [1,1]
+    output_tensors:
+    - tensor_name: _model_embed_tokens_Gather_Gather_output_0
+      id: 6
+      datatype: QNN_DATATYPE_UFIXED_POINT_16
+      dimensions: [1,1,896]

@@ -1,0 +1,67 @@
+[02:27:42] INFO    Project: Qwen3GenieDemo | Model: qwen2.5-0.5b-instruct_qnn229_qcs8550_4096
+[02:27:42] INFO    ============================================================
+[02:27:42] INFO    Level 1: Genie App-Level Profiling
+[02:27:42] INFO    ============================================================
+[02:27:42] INFO    [Level1] Checking device and deployed environment...
+[02:27:42] INFO    [Level1] Updating the prompt...
+[02:27:42] INFO    [Level1] Starting inference and profile collection...
+[02:27:44] INFO    [Level1] Console log saved: E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level1\genie-console.log
+[02:27:44] INFO    [Level1] Collecting logcat and profile...
+[02:27:45] INFO    [Level1] Profile JSON pulled: E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level1\genie-profile.json
+[02:27:45] INFO    [Level1] Test finished. Profile: E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level1\genie-profile.json
+[02:27:45] INFO    Level 1 results: {
+  "console_log": "E:\\QualComm\\qnn-htp-profiler\\models\\qwen2.5-0.5b-instruct-cl4096\\level1\\genie-console.log",
+  "logcat": "E:\\QualComm\\qnn-htp-profiler\\models\\qwen2.5-0.5b-instruct-cl4096\\level1\\genie-logcat.txt",
+  "profile_json": "E:\\QualComm\\qnn-htp-profiler\\models\\qwen2.5-0.5b-instruct-cl4096\\level1\\genie-profile.json"
+}
+[02:27:45] INFO    [Timing] level1 耗时 2.7 秒
+[02:27:45] INFO    ============================================================
+[02:27:45] INFO    Level 2: QNN Detailed Profiling
+[02:27:45] INFO    ============================================================
+[02:27:45] INFO    [Level2/detailed] Checking environment...
+[02:27:45] INFO    [Level2] qnn-net-run version: qnn-net-run pid:9042
+QNN SDK v2.34.0.250424201103_119471-auto
+[02:27:45] INFO    [Level2] Detected context lengths from context_info: [4096]
+[02:27:45] INFO    [Level2/detailed] Running prefill/part1...
+[02:27:46] INFO    [Level2/detailed] Completed prefill/part1
+[02:27:46] INFO    [Level2/detailed] Running prefill/part2...
+[02:27:51] INFO    [Level2/detailed] Completed prefill/part2
+[02:27:51] INFO    [Level2/detailed] Running decode/part1...
+[02:27:52] INFO    [Level2/detailed] Completed decode/part1
+[02:27:52] INFO    [Level2/detailed] Running decode/part2...
+[02:27:55] INFO    [Level2/detailed] Completed decode/part2
+[02:27:55] INFO      prefill/part1 -> E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level2\detailed\prefill\part1\output\profile.csv
+[02:27:55] INFO      prefill/part2 -> E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level2\detailed\prefill\part2\output\profile.csv
+[02:27:55] INFO      decode/part1 -> E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level2\detailed\decode\part1\output\profile.csv
+[02:27:55] INFO      decode/part2 -> E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level2\detailed\decode\part2\output\profile.csv
+[02:27:55] INFO    [Timing] level2 耗时 10.0 秒
+[02:27:55] INFO    ============================================================
+[02:27:55] INFO    Level 3: QNN Optrace Profiling
+[02:27:55] INFO    ============================================================
+[02:27:55] INFO    [Level3] Starting optrace profiling...
+[02:27:55] INFO    [Level2/optrace] Checking environment...
+[02:27:55] INFO    [Level2] qnn-net-run version: qnn-net-run pid:9290
+QNN SDK v2.34.0.250424201103_119471-auto
+[02:27:55] INFO    [Level2] Detected context lengths from context_info: [4096]
+[02:27:55] INFO    [Level2/optrace] Running prefill/part1...
+[02:27:56] INFO    [Level2/optrace] Completed prefill/part1
+[02:27:56] INFO    [Level2/optrace] Running prefill/part2...
+[02:28:01] INFO    [Level2/optrace] Completed prefill/part2
+[02:28:01] INFO    [Level2/optrace] Running decode/part1...
+[02:28:02] INFO    [Level2/optrace] Completed decode/part1
+[02:28:02] INFO    [Level2/optrace] Running decode/part2...
+[02:28:05] INFO    [Level2/optrace] Completed decode/part2
+[02:28:05] INFO      prefill/part1 -> E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level3\optrace\prefill\part1\output\profile-from-optrace.csv
+[02:28:05] INFO      prefill/part2 -> E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level3\optrace\prefill\part2\output\profile-from-optrace.csv
+[02:28:05] INFO      decode/part1 -> E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level3\optrace\decode\part1\output\profile-from-optrace.csv
+[02:28:05] INFO      decode/part2 -> E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\level3\optrace\decode\part2\output\profile-from-optrace.csv
+[02:28:05] INFO    [Timing] level3 耗时 10.2 秒
+[02:28:05] INFO    ============================================================
+[02:28:05] INFO    Analyzing results and generating report...
+[02:28:05] INFO    ============================================================
+[02:28:05] INFO    Report generated: E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\reports\20260911-022805-three-level-performance-analysis.md
+[02:28:05] INFO    Report generated: E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\reports\20260911-022805-three-level-performance-analysis.md
+[02:28:05] INFO    ============================================================
+[02:28:05] INFO    性能验证完成，总耗时 23.4 秒
+[02:28:05] INFO    Report: E:\QualComm\qnn-htp-profiler\models\qwen2.5-0.5b-instruct-cl4096\reports\20260911-022805-three-level-performance-analysis.md
+[02:28:05] INFO    ============================================================
