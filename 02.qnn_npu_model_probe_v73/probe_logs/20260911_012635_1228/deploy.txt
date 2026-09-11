@@ -1,0 +1,5 @@
+﻿E:\QualComm\app_native_probe_validation\qnn_npu_model_probe_v73\runtime\bin\: 1 file pushed, 0 skipped. 46.0 MB/s (5114856 bytes in 0.106s)
+E:\QualComm\app_native_probe_validation\qnn_npu_model_probe_v73\runtime\lib\: 17 files pushed, 0 skipped. 64.1 MB/s (119697576 bytes in 1.780s)
+E:\QualComm\app_native_probe_validation\qnn_npu_model_probe_v73\runtime\dsp\: 12 files pushed, 0 skipped. 63.4 MB/s (48264659 bytes in 0.726s)
+E:\QualComm\app_native_probe_validation\qnn_npu_model_probe_v73\model\: 1 file pushed, 0 skipped. 6.9 MB/s (363304 bytes in 0.050s)
+E:\QualComm\app_native_probe_validation\qnn_npu_model_probe_v73\inputs\: 3 files pushed, 0 skipped. 22.6 MB/s (2145686 bytes in 0.091s)

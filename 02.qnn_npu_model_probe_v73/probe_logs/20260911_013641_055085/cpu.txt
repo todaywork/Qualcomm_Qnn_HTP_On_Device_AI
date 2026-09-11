@@ -1,0 +1,13 @@
+qnn-net-run pid:28520
+qnn-net-run build version: v2.46.0.260424121129
+qnn-net-run log level is : QNN_LOG_LEVEL_VERBOSE
+Processing inference input(s):
+inputs/1x299x299x3_float_1.raw
+inputs/1x299x299x3_float_2.raw
+Composing Graphs
+Finalizing Graphs
+Executing Graphs
+WARNING: Failed to set thread affinity for cpuset 20. errno = 22. Setting the thread affinity to cpuset f8 instead. 
+WARNING: Failed to set thread affinity for cpuset 80. errno = 22. Setting the thread affinity to cpuset f8 instead. 
+WARNING: Failed to set thread affinity for cpuset 20. errno = 22. Setting the thread affinity to cpuset f8 instead. 
+Finished Executing Graphs

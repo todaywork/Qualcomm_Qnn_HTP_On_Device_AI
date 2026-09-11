@@ -1,0 +1,4 @@
+validator_exit_code=0
+device_serial=AN3GUT4220011858
+remote_directory=/data/local/tmp/qnn_platform_probe
+result=PASS
