@@ -1,0 +1,69 @@
+[02:53:59] INFO    Project: Qwen3-0.6B-HTP-Profile | Model: qwen3-0.6b-geniex_qairt-w4a16-sa8775p
+[02:53:59] INFO    ============================================================
+[02:53:59] INFO    Level 1: Genie App-Level Profiling
+[02:53:59] INFO    ============================================================
+[02:53:59] INFO    [Level1] Checking device and deployed environment...
+[02:53:59] INFO    [Level1] Updating the prompt...
+[02:53:59] INFO    [Level1] 系统提示词：You are a multilingual vehicle control assistant. Extract intent and slots from user commands in any language. Always respond with English JSON only. Do not think or explain.
+[02:53:59] INFO    [Level1] 用户提示词：close the sunroof
+[02:53:59] INFO    [Level1] Starting inference and profile collection...
+[02:54:01] INFO    [Level1] Console log saved: E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\level1\genie-console.log
+[02:54:01] INFO    [Level1] Collecting logcat and profile...
+[02:54:01] INFO    [Level1] Profile JSON pulled: E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\level1\genie-profile.json
+[02:54:01] INFO    [Level1] Test finished. Profile: E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\level1\genie-profile.json
+[02:54:01] INFO    Level 1 results: {
+  "console_log": "E:\\QualComm\\qnn-htp-profiler\\models\\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\\level1\\genie-console.log",
+  "logcat": "E:\\QualComm\\qnn-htp-profiler\\models\\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\\level1\\genie-logcat.txt",
+  "profile_json": "E:\\QualComm\\qnn-htp-profiler\\models\\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\\level1\\genie-profile.json"
+}
+[02:54:01] INFO    [Timing] level1 耗时 2.7 秒
+[02:54:01] INFO    ============================================================
+[02:54:01] INFO    Level 2: QNN Detailed Profiling
+[02:54:01] INFO    ============================================================
+[02:54:01] INFO    [Level2/detailed] Checking environment...
+[02:54:01] INFO    [Level2] qnn-net-run version: qnn-net-run pid:16387
+QNN SDK v2.48.40.260702151143
+[02:54:01] INFO    [Level2] Detected context lengths from context_info: [256, 512, 1024]
+[02:54:01] INFO    [Level2/detailed] Running prefill/part1...
+[02:54:03] INFO    [Level2/detailed] Completed prefill/part1
+[02:54:03] INFO    [Level2/detailed] Running prefill/part2...
+[02:54:09] INFO    [Level2/detailed] Completed prefill/part2
+[02:54:09] INFO    [Level2/detailed] Running decode/part1...
+[02:54:10] INFO    [Level2/detailed] Completed decode/part1
+[02:54:10] INFO    [Level2/detailed] Running decode/part2...
+[02:54:14] INFO    [Level2/detailed] Completed decode/part2
+[02:54:14] INFO      prefill/part1 -> E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\level2\detailed\prefill\part1\output\profile.csv
+[02:54:14] INFO      prefill/part2 -> E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\level2\detailed\prefill\part2\output\profile.csv
+[02:54:14] INFO      decode/part1 -> E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\level2\detailed\decode\part1\output\profile.csv
+[02:54:14] INFO      decode/part2 -> E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\level2\detailed\decode\part2\output\profile.csv
+[02:54:14] INFO    [Timing] level2 耗时 13.0 秒
+[02:54:14] INFO    ============================================================
+[02:54:14] INFO    Level 3: QNN Optrace Profiling
+[02:54:14] INFO    ============================================================
+[02:54:14] INFO    [Level3] Starting optrace profiling...
+[02:54:14] INFO    [Level2/optrace] Checking environment...
+[02:54:15] INFO    [Level2] qnn-net-run version: qnn-net-run pid:16546
+QNN SDK v2.48.40.260702151143
+[02:54:15] INFO    [Level2] Detected context lengths from context_info: [256, 512, 1024]
+[02:54:15] INFO    [Level2/optrace] Running prefill/part1...
+[02:54:16] INFO    [Level2/optrace] Completed prefill/part1
+[02:54:16] INFO    [Level2/optrace] Running prefill/part2...
+[02:54:22] INFO    [Level2/optrace] Completed prefill/part2
+[02:54:22] INFO    [Level2/optrace] Running decode/part1...
+[02:54:23] INFO    [Level2/optrace] Completed decode/part1
+[02:54:23] INFO    [Level2/optrace] Running decode/part2...
+[02:54:27] INFO    [Level2/optrace] Completed decode/part2
+[02:54:27] INFO      prefill/part1 -> no csv
+[02:54:27] INFO      prefill/part2 -> no csv
+[02:54:27] INFO      decode/part1 -> no csv
+[02:54:27] INFO      decode/part2 -> no csv
+[02:54:27] INFO    [Timing] level3 耗时 13.0 秒
+[02:54:27] INFO    ============================================================
+[02:54:27] INFO    Analyzing results and generating report...
+[02:54:27] INFO    ============================================================
+[02:54:28] INFO    Report generated: E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\reports\20260911-025428-three-level-performance-analysis.md
+[02:54:28] INFO    Report generated: E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\reports\20260911-025428-three-level-performance-analysis.md
+[02:54:28] INFO    ============================================================
+[02:54:28] INFO    性能验证完成，总耗时 29.4 秒
+[02:54:28] INFO    Report: E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\reports\20260911-025428-three-level-performance-analysis.md
+[02:54:28] INFO    ============================================================

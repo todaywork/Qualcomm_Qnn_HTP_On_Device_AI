@@ -1,0 +1,28 @@
+{
+  "Passed": true,
+  "Reference": "Same quantized model on QNN CPU",
+  "Samples": [
+    {
+      "Sample": 0,
+      "Comparison": {
+        "Elements": 710432,
+        "MaxAbsError": 0.10941743850708008,
+        "MeanAbsError": 0.013712934321023908,
+        "Tolerance": 0.109418,
+        "MismatchedElements": 0,
+        "Passed": true
+      }
+    },
+    {
+      "Sample": 1,
+      "Comparison": {
+        "Elements": 710432,
+        "MaxAbsError": 0.10941720008850098,
+        "MeanAbsError": 0.013724331411994797,
+        "Tolerance": 0.109418,
+        "MismatchedElements": 0,
+        "Passed": true
+      }
+    }
+  ]
+}

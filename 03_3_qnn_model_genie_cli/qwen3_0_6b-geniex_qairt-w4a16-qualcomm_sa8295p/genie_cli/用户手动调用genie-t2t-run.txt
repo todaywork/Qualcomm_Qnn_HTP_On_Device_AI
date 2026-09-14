@@ -1,0 +1,14 @@
+cd /data/local/tmp/genie_qwen3_quality
+
+export LD_LIBRARY_PATH=$PWD/genie_cli/libs:$PWD/dsp:/vendor/lib64:/system/lib64
+export ADSP_LIBRARY_PATH="/vendor/lib/rfsa/adsp;$PWD/dsp"
+export CDSP_LIBRARY_PATH="$ADSP_LIBRARY_PATH"
+export CDSP1_LIBRARY_PATH="$ADSP_LIBRARY_PATH"
+
+# genie_cli_prompt.txt 是 raw prompt；空的 <think>...</think> 块用于明确启用
+# Qwen3 no-thinking 行为。
+./genie_cli/bin/genie-t2t-run \
+  --config genie_config.json \
+  --prompt_file genie_cli/genie_cli_prompt.txt \
+  --log info \
+  --profile genie-profile.json

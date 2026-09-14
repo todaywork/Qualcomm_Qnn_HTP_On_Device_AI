@@ -1,0 +1,2 @@
+/data/local/tmp/qnn_npu_model_probe/output_htp/: 3 files pulled, 0 skipped. 34.8 MB/s (5684058 bytes in 0.156s)
+/data/local/tmp/qnn_npu_model_probe/output_cpu/: 3 files pulled, 0 skipped. 35.3 MB/s (5684058 bytes in 0.154s)

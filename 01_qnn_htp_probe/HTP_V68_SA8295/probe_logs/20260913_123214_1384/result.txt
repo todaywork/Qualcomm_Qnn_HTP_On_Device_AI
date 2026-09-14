@@ -1,0 +1,6 @@
+expected_architecture=V68
+probe_started=true
+device_serial=AN3GUT4220011858
+remote_directory=/data/local/tmp/qnn_platform_probe
+core_query_exit_code=0
+result=ARCH_MISMATCH_OR_UNCONFIRMED

@@ -1,1 +1,0 @@
-/data/local/tmp/qnn_platform_probe/validator_output/: 1 file pulled, 0 skipped. 0.0 MB/s (206 bytes in 0.015s)

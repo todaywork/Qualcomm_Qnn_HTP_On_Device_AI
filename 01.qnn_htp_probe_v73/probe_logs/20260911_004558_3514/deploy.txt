@@ -1,3 +1,0 @@
-E:\QualComm\app_native_probe_validation\qnn_htp_probe_v73\runtime\bin\qnn-platform-validator: 1 file pushed, 0 skipped. 40.6 MB/s (940992 bytes in 0.022s)
-E:\QualComm\app_native_probe_validation\qnn_htp_probe_v73\runtime\lib\.\: 17 files pushed, 0 skipped. 56.1 MB/s (119697576 bytes in 2.036s)
-E:\QualComm\app_native_probe_validation\qnn_htp_probe_v73\runtime\dsp\.\: 12 files pushed, 0 skipped. 57.0 MB/s (48264659 bytes in 0.808s)

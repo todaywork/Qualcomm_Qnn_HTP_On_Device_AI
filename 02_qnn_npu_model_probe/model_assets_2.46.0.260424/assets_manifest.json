@@ -1,0 +1,133 @@
+{
+  "sdk_directory": "2.46.0.260424",
+  "sdk_version": "2.46.0",
+  "sdk_build_id": "260424121129",
+  "source_sdk_root": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424",
+  "ndk_root": "D:\\Sdk\\ndk\\27.2.12479018",
+  "android_api": 24,
+  "ndk_revision": "Pkg.Desc = Android NDK\nPkg.Revision = 27.2.12479018\nPkg.BaseRevision = 27.2.12479018\nPkg.ReleaseName = r27c\n",
+  "model_format": "Android arm64 QNN runtime graph model, not HTP context",
+  "input_shape": [
+    1,
+    299,
+    299,
+    3
+  ],
+  "output_shape": [
+    1,
+    149,
+    149,
+    32
+  ],
+  "output_scale": 0.0547085,
+  "device_validation": "NOT_VERIFIED",
+  "files": [
+    {
+      "path": "model/libconv_relu_quantized.so",
+      "size_bytes": 599472,
+      "sha256": "a1941a637379e93e794b04ba028f086f6ab824773acf53c801dd562be0304392"
+    },
+    {
+      "path": "inputs/1x299x299x3_float_1.raw",
+      "size_bytes": 1072812,
+      "sha256": "73a068c9f50c9bfeb5367892398b99821a849ac1b99baadd7916c791db018d91"
+    },
+    {
+      "path": "inputs/1x299x299x3_float_2.raw",
+      "size_bytes": 1072812,
+      "sha256": "ba691db7168db863333ccb3dd386a8ad3517d1a26ebcfcc319593a5d79fd59fa"
+    },
+    {
+      "path": "inputs/input_list.txt",
+      "size_bytes": 64,
+      "sha256": "745c785143e92f1de3f45b665e238dbb9ee5e2e7084253cccac951d44ef40582"
+    }
+  ],
+  "sources": [
+    {
+      "path": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\examples\\QNN\\converter\\models\\qnn_model_8bit_quantized.cpp",
+      "sha256": "9e083e6600d76ba0f1b2c3a9164d9737a2a71252cc41c25eca84e185f09d1ac2"
+    },
+    {
+      "path": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\share\\QNN\\converter\\jni\\QnnModel.cpp",
+      "sha256": "9b61ae746cf38769ba3929976c1ce6bf5b9d55a07b1620bb710ffb5f3496ff0b"
+    },
+    {
+      "path": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\share\\QNN\\converter\\jni\\QnnWrapperUtils.cpp",
+      "sha256": "ba4e6ef9faedcd538f3c7ead91495744a7976d4f71504e8a984a772eebf2bdb8"
+    },
+    {
+      "path": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\share\\QNN\\converter\\jni\\linux\\QnnModelPal.cpp",
+      "sha256": "cd175508b73513119462bf9a6f2c326e28175923b03e25044f931e6242c556e9"
+    },
+    {
+      "path": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\examples\\QNN\\converter\\models\\input_data_float\\1x299x299x3_float_1.raw",
+      "sha256": "73a068c9f50c9bfeb5367892398b99821a849ac1b99baadd7916c791db018d91"
+    },
+    {
+      "path": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\examples\\QNN\\converter\\models\\input_data_float\\1x299x299x3_float_2.raw",
+      "sha256": "ba691db7168db863333ccb3dd386a8ad3517d1a26ebcfcc319593a5d79fd59fa"
+    },
+    {
+      "path": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\examples\\QNN\\converter\\models\\qnn_model_8bit_quantized.bin",
+      "sha256": "e032be65eef8c870ad6ef45951edf52fb8e9954c8c288cd043ea033fe1f07481"
+    }
+  ],
+  "commands": [
+    [
+      "D:\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "-I",
+      "binary",
+      "-O",
+      "elf64-littleaarch64",
+      "-B",
+      "aarch64",
+      "obj/binary/InceptionV3_InceptionV3_Conv2d_1a_3x3_Conv2D_bias.raw",
+      "obj/InceptionV3_InceptionV3_Conv2d_1a_3x3_Conv2D_bias.raw.o"
+    ],
+    [
+      "D:\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "-I",
+      "binary",
+      "-O",
+      "elf64-littleaarch64",
+      "-B",
+      "aarch64",
+      "obj/binary/InceptionV3_InceptionV3_Conv2d_1a_3x3_Conv2D_weight.raw",
+      "obj/InceptionV3_InceptionV3_Conv2d_1a_3x3_Conv2D_weight.raw.o"
+    ],
+    [
+      "D:\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe",
+      "--target=aarch64-linux-android24",
+      "-shared",
+      "-fPIC",
+      "-O3",
+      "-std=c++11",
+      "-fvisibility=hidden",
+      "-Wno-write-strings",
+      "-DQNN_API=__attribute__((visibility(\"default\")))",
+      "-static-libstdc++",
+      "-IE:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\share\\QNN\\converter\\jni",
+      "-IE:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\include\\QNN",
+      "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\examples\\QNN\\converter\\models\\qnn_model_8bit_quantized.cpp",
+      "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\share\\QNN\\converter\\jni\\QnnModel.cpp",
+      "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\share\\QNN\\converter\\jni\\QnnWrapperUtils.cpp",
+      "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\share\\QNN\\converter\\jni\\linux\\QnnModelPal.cpp",
+      "obj/InceptionV3_InceptionV3_Conv2d_1a_3x3_Conv2D_bias.raw.o",
+      "obj/InceptionV3_InceptionV3_Conv2d_1a_3x3_Conv2D_weight.raw.o",
+      "-Wl,--no-undefined",
+      "-Wl,-z,max-page-size=16384",
+      "-Wl,-soname,libconv_relu_quantized.so",
+      "-ldl",
+      "-lm",
+      "-o",
+      "E:\\QualComm\\01.Qualcomm_Qnn_HTP_On_Device_AI\\02.qnn_npu_model_probe\\model_assets_2.46.0.260424\\model\\libconv_relu_quantized.so"
+    ],
+    [
+      "D:\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-readelf.exe",
+      "--dyn-syms",
+      "--wide",
+      "E:\\QualComm\\01.Qualcomm_Qnn_HTP_On_Device_AI\\02.qnn_npu_model_probe\\model_assets_2.46.0.260424\\model\\libconv_relu_quantized.so"
+    ]
+  ]
+}

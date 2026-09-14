@@ -1,3 +1,0 @@
-﻿List of devices attached
-AN3GUT4220011858       device product:MAA-AN10 model:MAA_AN10 device:HNMAP transport_id:2
-

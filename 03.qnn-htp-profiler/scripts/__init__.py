@@ -1,1 +1,0 @@
-"""QNN Profiling scripts package."""

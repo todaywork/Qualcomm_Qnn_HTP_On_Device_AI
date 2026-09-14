@@ -1,9 +1,0 @@
-[02:48:43] INFO    Project: Qwen3-0.6B-HTP-Profile
-[02:48:43] INFO    Model: qwen3-0.6b-geniex_qairt-w4a16-sa8775p
-[02:48:43] INFO    Output: E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21
-[02:48:43] INFO    Action: analyze
-[02:48:43] INFO    ============================================================
-[02:48:43] INFO    Analyzing results and generating report...
-[02:48:43] INFO    ============================================================
-[02:48:44] INFO    Report generated: E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\reports\20260911-024844-three-level-performance-analysis.md
-[02:48:44] INFO    Report generated: E:\QualComm\qnn-htp-profiler\models\qwen3_0_6b-geniex_qairt-w4a16-qualcomm_sa8775p_ctx256_v21\reports\20260911-024844-three-level-performance-analysis.md

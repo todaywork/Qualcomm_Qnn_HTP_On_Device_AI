@@ -1,0 +1,18 @@
+qnn-net-run pid:18781
+qnn-net-run build version: v2.48.40.260702151143
+qnn-net-run log level is : QNN_LOG_LEVEL_INFO
+Processing inference input(s):
+input_ids -> /data/local/tmp/qwen3_06b_profile/qnn_inputs/prompt_ar128_cl512_1_of_2/input_ids.raw
+Creating context from binary file: /data/local/tmp/qwen3_06b_profile/model/part1_of_2.bin
+Executing Graphs
+Finished Executing Graphs
+Profile artifacts:
+/data/local/tmp/qwen3_06b_profile/qnn_profile/detailed/prefill/part1/output/qnn-profiling-data_0.log
+/data/local/tmp/qwen3_06b_profile/qnn_profile/detailed/prefill/part1/output/prompt_ar128_cl512_1_of_2/Result_0/_model_model_embed_tokens_Gather_output_0_native.raw
+/data/local/tmp/qwen3_06b_profile/qnn_profile/detailed/prefill/part1/output/prompt_ar128_cl512_1_of_2/_model_model_embed_tokens_Gather_output_0_native.raw.json
+/data/local/tmp/qwen3_06b_profile/qnn_profile/detailed/prefill/part1/output/execution_metadata.yaml
+Converting profiling log to CSV...
+    Backend (Accelerator (execute excluding wait) time): 156 us
+    Backend (QNN (execute) time): 1448 us
+
+profile.csv generated.

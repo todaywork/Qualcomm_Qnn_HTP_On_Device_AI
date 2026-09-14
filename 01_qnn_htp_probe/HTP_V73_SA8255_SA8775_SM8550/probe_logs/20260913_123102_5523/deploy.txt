@@ -1,0 +1,3 @@
+E:\QualComm\01.Qualcomm_Qnn_HTP_On_Device_AI\01.qnn_htp_probe\HTP_V73\runtime\bin\qnn-platform-validator: 1 file pushed, 0 skipped. 219.4 MB/s (940992 bytes in 0.004s)
+E:\QualComm\01.Qualcomm_Qnn_HTP_On_Device_AI\01.qnn_htp_probe\HTP_V73\runtime\lib\.\: 12 files pushed, 0 skipped. 87.7 MB/s (116003640 bytes in 1.261s)
+E:\QualComm\01.Qualcomm_Qnn_HTP_On_Device_AI\01.qnn_htp_probe\HTP_V73\runtime\dsp\.\: 12 files pushed, 0 skipped. 90.3 MB/s (48264659 bytes in 0.510s)

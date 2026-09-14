@@ -1,0 +1,5 @@
+E:\QualComm\01.Qualcomm_Qnn_HTP_On_Device_AI\02.qnn_npu_model_probe\Qnn_model_HTP_V73\runtime\bin\: 2 files pushed, 0 skipped. 55.7 MB/s (6055848 bytes in 0.104s)
+E:\QualComm\01.Qualcomm_Qnn_HTP_On_Device_AI\02.qnn_npu_model_probe\Qnn_model_HTP_V73\runtime\lib\: 11 files pushed, 0 skipped. 87.5 MB/s (115752792 bytes in 1.262s)
+E:\QualComm\01.Qualcomm_Qnn_HTP_On_Device_AI\02.qnn_npu_model_probe\Qnn_model_HTP_V73\runtime\dsp\: 12 files pushed, 0 skipped. 86.4 MB/s (48264659 bytes in 0.533s)
+E:\QualComm\01.Qualcomm_Qnn_HTP_On_Device_AI\02.qnn_npu_model_probe\Qnn_model_HTP_V73\model\: 1 file pushed, 0 skipped. 20.5 MB/s (599472 bytes in 0.028s)
+E:\QualComm\01.Qualcomm_Qnn_HTP_On_Device_AI\02.qnn_npu_model_probe\Qnn_model_HTP_V73\inputs\: 3 files pushed, 0 skipped. 33.5 MB/s (2145688 bytes in 0.061s)

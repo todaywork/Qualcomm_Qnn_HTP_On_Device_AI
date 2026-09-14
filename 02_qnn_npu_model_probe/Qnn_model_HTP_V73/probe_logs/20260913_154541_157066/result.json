@@ -1,0 +1,7 @@
+{
+  "Passed": true,
+  "ExitCode": 0,
+  "Device": "AN3GUT4220011858",
+  "Remote": "/data/local/tmp/qnn_npu_model_probe",
+  "ExpectedArchitecture": "V73"
+}

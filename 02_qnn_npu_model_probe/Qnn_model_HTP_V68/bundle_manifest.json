@@ -1,0 +1,185 @@
+{
+  "htp_architecture": 68,
+  "platform": "aarch64-android",
+  "sdk_version": "2.46.0.260424",
+  "adb_source": "system_PATH",
+  "device_validation": "NOT_VERIFIED_ON_V68",
+  "model_format": "Android arm64 QNN model library; graph composed at runtime, not a serialized HTP context",
+  "files": [
+    {
+      "path": "check_npu_model.bat",
+      "size_bytes": 102,
+      "sha256": "fbdfc6512347e5f5c9325eb8c864fefc312545c837c0b26ad6f63ad7dab8c5f8",
+      "source": "Adapted V73 probe script for V68"
+    },
+    {
+      "path": "run_probe.py",
+      "size_bytes": 11023,
+      "sha256": "26891284dc74487b81016a94627fa3e4af3bf3fcddbb5413da5e1b05682a6893",
+      "source": "Adapted V73 probe script for V68"
+    },
+    {
+      "path": "inputs/1x299x299x3_float_1.raw",
+      "size_bytes": 1072812,
+      "sha256": "73a068c9f50c9bfeb5367892398b99821a849ac1b99baadd7916c791db018d91",
+      "source": "E:\\QualComm\\01.Qualcomm_Qnn_HTP_On_Device_AI\\02.qnn_npu_model_probe\\Qnn_model_HTP_V73\\inputs\\1x299x299x3_float_1.raw"
+    },
+    {
+      "path": "inputs/1x299x299x3_float_2.raw",
+      "size_bytes": 1072812,
+      "sha256": "ba691db7168db863333ccb3dd386a8ad3517d1a26ebcfcc319593a5d79fd59fa",
+      "source": "E:\\QualComm\\01.Qualcomm_Qnn_HTP_On_Device_AI\\02.qnn_npu_model_probe\\Qnn_model_HTP_V73\\inputs\\1x299x299x3_float_2.raw"
+    },
+    {
+      "path": "inputs/input_list.txt",
+      "size_bytes": 62,
+      "sha256": "81db2cab1e621173a03d3edd2d6266e85ec6caef7b759979a34d97de859ac482",
+      "source": "E:\\QualComm\\01.Qualcomm_Qnn_HTP_On_Device_AI\\02.qnn_npu_model_probe\\Qnn_model_HTP_V73\\inputs\\input_list.txt"
+    },
+    {
+      "path": "model/libconv_relu_quantized.so",
+      "size_bytes": 363304,
+      "sha256": "97932ceccdb9c1ffb7085a0766a3483e4359fa3a195d9fe8c7542a33f48ddaa4",
+      "source": "E:\\QualComm\\01.Qualcomm_Qnn_HTP_On_Device_AI\\02.qnn_npu_model_probe\\Qnn_model_HTP_V73\\model\\libconv_relu_quantized.so"
+    },
+    {
+      "path": "runtime/bin/qnn-net-run",
+      "size_bytes": 5114856,
+      "sha256": "2d0f6dec943178ddb25856543c834266f955622042d653bde6c7272b6f845b9b",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\bin\\aarch64-android\\qnn-net-run"
+    },
+    {
+      "path": "runtime/bin/qnn-platform-validator",
+      "size_bytes": 940992,
+      "sha256": "90366c45b212a92c4c77e217f6d9c9b1964e0853886edb185b1fd00c09807f3a",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\bin\\aarch64-android\\qnn-platform-validator"
+    },
+    {
+      "path": "runtime/dsp/libCalculator_skel.so",
+      "size_bytes": 5656,
+      "sha256": "69abecbea57ba999292fbe61fdbddad33947c9889e9c0af6df6eab04299c5576",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libCalculator_skel.so"
+    },
+    {
+      "path": "runtime/dsp/libQnnHexagonSkel_dspApp.so",
+      "size_bytes": 30996,
+      "sha256": "b161a2253e387d8cfc45301b9e33b49b1bed9b57e853763511b91269884f2b5b",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libQnnHexagonSkel_dspApp.so"
+    },
+    {
+      "path": "runtime/dsp/libQnnHtpNetRunExtensions.so",
+      "size_bytes": 737304,
+      "sha256": "b8a9bb42d08151e5312b2cb9c4883b5cc6b1bf4ab78950eb78473b82007f83a0",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libQnnHtpNetRunExtensions.so"
+    },
+    {
+      "path": "runtime/dsp/libQnnHtpV68.so",
+      "size_bytes": 10131768,
+      "sha256": "68a97162087594e1a1258171564093daf6738af0508a00c576b105ed86de9a2f",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libQnnHtpV68.so"
+    },
+    {
+      "path": "runtime/dsp/libQnnHtpV68QemuDriver.so",
+      "size_bytes": 9821888,
+      "sha256": "1722e4de5f780acb4711fa4ee3653edf5bbf2ba44f2e84cc2a7f42d2b7a8f58e",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libQnnHtpV68QemuDriver.so"
+    },
+    {
+      "path": "runtime/dsp/libQnnHtpV68Skel.so",
+      "size_bytes": 9813760,
+      "sha256": "4f211a1b0080b820e855951d0ba90da977596179b06858447c5b326b8faa3105",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libQnnHtpV68Skel.so"
+    },
+    {
+      "path": "runtime/dsp/libQnnNetRunDirectV68Skel.so",
+      "size_bytes": 2202332,
+      "sha256": "d9841544c253dd73f9ee0a57751998faf701e0b6ffee8b04a0915fcfff5646ee",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libQnnNetRunDirectV68Skel.so"
+    },
+    {
+      "path": "runtime/dsp/libQnnSaver.so",
+      "size_bytes": 318328,
+      "sha256": "ee927bbb77c2ebb7fddb3330d385adca9dd3f5248fff754cfca7f78225815bfb",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libQnnSaver.so"
+    },
+    {
+      "path": "runtime/dsp/libQnnSystem.so",
+      "size_bytes": 208180,
+      "sha256": "1d223892d7fc11ebbaae6741c6fe5a912d2922f75576287361753df0461a1a4e",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libQnnSystem.so"
+    },
+    {
+      "path": "runtime/dsp/libSnpeHtpV68Skel.so",
+      "size_bytes": 10180608,
+      "sha256": "d43309a79b5a5c0f6a05b1ab044bef8c22adb508f33d36a54748198e85d616ec",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\hexagon-v68\\unsigned\\libSnpeHtpV68Skel.so"
+    },
+    {
+      "path": "runtime/lib/libQnnChrometraceProfilingReader.so",
+      "size_bytes": 640080,
+      "sha256": "5299e62174b627df77ed2318378a33ec28b11ce5516f6fc6986ece56aa556ffb",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnChrometraceProfilingReader.so"
+    },
+    {
+      "path": "runtime/lib/libQnnCpu.so",
+      "size_bytes": 6887896,
+      "sha256": "8358392bc524c44282a1ebbb825aebd02923bf0a83b357aa64e94b7a5353a2cb",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnCpu.so"
+    },
+    {
+      "path": "runtime/lib/libQnnHtp.so",
+      "size_bytes": 3495096,
+      "sha256": "50e27cc07662bd6a0787dc71ed77eefb7d4965504ab7652d52f7ce0920bd82f6",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnHtp.so"
+    },
+    {
+      "path": "runtime/lib/libQnnHtpNetRunExtensions.so",
+      "size_bytes": 1003080,
+      "sha256": "f1cacf9fc7c67dc6630568dead86f03cd9ec4ea120f917a047a61c306480be6a",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnHtpNetRunExtensions.so"
+    },
+    {
+      "path": "runtime/lib/libQnnHtpOptraceProfilingReader.so",
+      "size_bytes": 4029904,
+      "sha256": "fa551ec2b48694f190569fe8e4d94665d162507daa9a39f61a2cf1e2efc0bf62",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnHtpOptraceProfilingReader.so"
+    },
+    {
+      "path": "runtime/lib/libQnnHtpPrepare.so",
+      "size_bytes": 90431072,
+      "sha256": "885f160587dc8ac93c72577935ab8b32914211ff3fe098a824f209c897d87a8f",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnHtpPrepare.so"
+    },
+    {
+      "path": "runtime/lib/libQnnHtpProfilingReader.so",
+      "size_bytes": 631184,
+      "sha256": "168ce6a179c99c06a827a5ab2ed52f703049dbc7b62a0494c1305a92f80ccc3b",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnHtpProfilingReader.so"
+    },
+    {
+      "path": "runtime/lib/libQnnHtpV68Stub.so",
+      "size_bytes": 729464,
+      "sha256": "f7f0cfe80efffa21396b5d5b7e84ffda5c3e0bd41eab41e7ab6748ab88bc240d",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnHtpV68Stub.so"
+    },
+    {
+      "path": "runtime/lib/libQnnModelDlc.so",
+      "size_bytes": 3229792,
+      "sha256": "411fa837d9d2b2bb1fab583e50d64c087c78d9237bbdd81fa4c0ba48671dc649",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnModelDlc.so"
+    },
+    {
+      "path": "runtime/lib/libQnnSaver.so",
+      "size_bytes": 803616,
+      "sha256": "1581bd7a5578a18281d8bdb0fc44e20ecea7449e8de51492ba8837401126e8a5",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnSaver.so"
+    },
+    {
+      "path": "runtime/lib/libQnnSystem.so",
+      "size_bytes": 3864784,
+      "sha256": "7401dde8de30f9a627068e33a403e53a8b470b3c002bd05115133881826da9f6",
+      "source": "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424\\lib\\aarch64-android\\libQnnSystem.so"
+    }
+  ],
+  "python_source": "system_PATH"
+}

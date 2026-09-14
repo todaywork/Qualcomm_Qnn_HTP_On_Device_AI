@@ -1,0 +1,154 @@
+{
+    "schema_version":  1,
+    "target_label":  "HTP_V68",
+    "htp_architecture":  68,
+    "platform":  "aarch64-android",
+    "adb_source":  "system_PATH",
+    "sdk_product":  "QAIRT",
+    "sdk_version":  "2.46.0",
+    "sdk_build_id":  "260424121129",
+    "sdk_directory":  "2.46.0.260424",
+    "source_sdk_root":  "E:\\QualComm\\AIStack\\QAIRT\\2.46.0.260424",
+    "created_at":  "2026-09-13T12:32:02.3421458+08:00",
+    "device_validation":  "NOT_VERIFIED_ON_V68",
+    "files":  [
+                  {
+                      "path":  "runtime/bin/qnn-platform-validator",
+                      "size_bytes":  940992,
+                      "sha256":  "90366C45B212A92C4C77E217F6D9C9B1964E0853886EDB185B1FD00C09807F3A",
+                      "source":  "bin/aarch64-android/qnn-platform-validator"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnHtp.so",
+                      "size_bytes":  3495096,
+                      "sha256":  "50E27CC07662BD6A0787DC71ED77EEFB7D4965504AB7652D52F7CE0920BD82F6",
+                      "source":  "lib/aarch64-android/libQnnHtp.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnHtpPrepare.so",
+                      "size_bytes":  90431072,
+                      "sha256":  "885F160587DC8AC93C72577935AB8B32914211FF3FE098A824F209C897D87A8F",
+                      "source":  "lib/aarch64-android/libQnnHtpPrepare.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnSystem.so",
+                      "size_bytes":  3864784,
+                      "sha256":  "7401DDE8DE30F9A627068E33A403E53A8B470B3C002BD05115133881826DA9F6",
+                      "source":  "lib/aarch64-android/libQnnSystem.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnCpu.so",
+                      "size_bytes":  6887896,
+                      "sha256":  "8358392BC524C44282A1EBBB825AEBD02923BF0A83B357AA64E94B7A5353A2CB",
+                      "source":  "lib/aarch64-android/libQnnCpu.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnModelDlc.so",
+                      "size_bytes":  3229792,
+                      "sha256":  "411FA837D9D2B2BB1FAB583E50D64C087C78D9237BBDD81FA4C0BA48671DC649",
+                      "source":  "lib/aarch64-android/libQnnModelDlc.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnSaver.so",
+                      "size_bytes":  803616,
+                      "sha256":  "1581BD7A5578A18281D8BDB0FC44E20ECEA7449E8DE51492BA8837401126E8A5",
+                      "source":  "lib/aarch64-android/libQnnSaver.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnHtpNetRunExtensions.so",
+                      "size_bytes":  1003080,
+                      "sha256":  "F1CACF9FC7C67DC6630568DEAD86F03CD9EC4EA120F917A047A61C306480BE6A",
+                      "source":  "lib/aarch64-android/libQnnHtpNetRunExtensions.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnHtpProfilingReader.so",
+                      "size_bytes":  631184,
+                      "sha256":  "168CE6A179C99C06A827A5AB2ED52F703049DBC7B62A0494C1305A92F80CCC3B",
+                      "source":  "lib/aarch64-android/libQnnHtpProfilingReader.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnHtpOptraceProfilingReader.so",
+                      "size_bytes":  4029904,
+                      "sha256":  "FA551EC2B48694F190569FE8E4D94665D162507DAA9A39F61A2CF1E2EFC0BF62",
+                      "source":  "lib/aarch64-android/libQnnHtpOptraceProfilingReader.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnChrometraceProfilingReader.so",
+                      "size_bytes":  640080,
+                      "sha256":  "5299E62174B627DF77ED2318378A33EC28B11CE5516F6FC6986ECE56AA556FFB",
+                      "source":  "lib/aarch64-android/libQnnChrometraceProfilingReader.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnHtpV68Stub.so",
+                      "size_bytes":  729464,
+                      "sha256":  "F7F0CFE80EFFFA21396B5D5B7E84FFDA5C3E0BD41EAB41E7AB6748AB88BC240D",
+                      "source":  "lib/aarch64-android/libQnnHtpV68Stub.so"
+                  },
+                  {
+                      "path":  "runtime/lib/libQnnHtpV68CalculatorStub.so",
+                      "size_bytes":  250848,
+                      "sha256":  "70511A42EDAF9A6FD44E2629F10920AC03A3B5879A8E05164250AE523B0764EA",
+                      "source":  "lib/aarch64-android/libQnnHtpV68CalculatorStub.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libCalculator_skel.so",
+                      "size_bytes":  5656,
+                      "sha256":  "69ABECBEA57BA999292FBE61FDBDDAD33947C9889E9C0AF6DF6EAB04299C5576",
+                      "source":  "lib/hexagon-v68/unsigned/libCalculator_skel.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libQnnHexagonSkel_dspApp.so",
+                      "size_bytes":  30996,
+                      "sha256":  "B161A2253E387D8CFC45301B9E33B49B1BED9B57E853763511B91269884F2B5B",
+                      "source":  "lib/hexagon-v68/unsigned/libQnnHexagonSkel_dspApp.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libQnnHtpNetRunExtensions.so",
+                      "size_bytes":  737304,
+                      "sha256":  "B8A9BB42D08151E5312B2CB9C4883B5CC6B1BF4AB78950EB78473B82007F83A0",
+                      "source":  "lib/hexagon-v68/unsigned/libQnnHtpNetRunExtensions.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libQnnHtpV68.so",
+                      "size_bytes":  10131768,
+                      "sha256":  "68A97162087594E1A1258171564093DAF6738AF0508A00C576B105ED86DE9A2F",
+                      "source":  "lib/hexagon-v68/unsigned/libQnnHtpV68.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libQnnHtpV68QemuDriver.so",
+                      "size_bytes":  9821888,
+                      "sha256":  "1722E4DE5F780ACB4711FA4EE3653EDF5BBF2BA44F2E84CC2A7F42D2B7A8F58E",
+                      "source":  "lib/hexagon-v68/unsigned/libQnnHtpV68QemuDriver.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libQnnHtpV68Skel.so",
+                      "size_bytes":  9813760,
+                      "sha256":  "4F211A1B0080B820E855951D0BA90DA977596179B06858447C5B326B8FAA3105",
+                      "source":  "lib/hexagon-v68/unsigned/libQnnHtpV68Skel.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libQnnNetRunDirectV68Skel.so",
+                      "size_bytes":  2202332,
+                      "sha256":  "D9841544C253DD73F9EE0A57751998FAF701E0B6FFEE8B04A0915FCFFF5646EE",
+                      "source":  "lib/hexagon-v68/unsigned/libQnnNetRunDirectV68Skel.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libQnnSaver.so",
+                      "size_bytes":  318328,
+                      "sha256":  "EE927BBB77C2EBB7FDDB3330D385ADCA9DD3F5248FFF754CFCA7F78225815BFB",
+                      "source":  "lib/hexagon-v68/unsigned/libQnnSaver.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libQnnSystem.so",
+                      "size_bytes":  208180,
+                      "sha256":  "1D223892D7FC11EBBAAE6741C6FE5A912D2922F75576287361753DF0461A1A4E",
+                      "source":  "lib/hexagon-v68/unsigned/libQnnSystem.so"
+                  },
+                  {
+                      "path":  "runtime/dsp/libSnpeHtpV68Skel.so",
+                      "size_bytes":  10180608,
+                      "sha256":  "D43309A79B5A5C0F6A05B1AB044BEF8C22ADB508F33D36A54748198E85D616EC",
+                      "source":  "lib/hexagon-v68/unsigned/libSnpeHtpV68Skel.so"
+                  }
+              ]
+}
