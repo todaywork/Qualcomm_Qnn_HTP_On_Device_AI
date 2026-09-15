@@ -11,7 +11,6 @@ from __future__ import annotations
 import argparse
 import base64
 import json
-import os
 import re
 import shutil
 import subprocess
@@ -34,8 +33,6 @@ DEFAULT_REFERENCE = (
 )
 DEFAULT_DEVICE_ROOT = "/data/local/tmp/genie_qwen3_quality"
 DEFAULT_TOKENIZER = LOCAL_ROOT.parent / "tokenizer.json"
-ADB_PATH = ""
-ADB_SERIAL = ""
 ANDROID_CONTEXT_SIZE = 512
 ANDROID_MAX_ALL_TOKENS = 256
 ANDROID_MAX_OUTPUT_TOKENS = 48
@@ -95,41 +92,8 @@ def configure_console() -> None:
             reconfigure(encoding="utf-8", errors="replace")
 
 
-def select_device(requested: str = "") -> None:
-    """Select once; never let later device-list changes redirect deployment."""
-    global ADB_PATH, ADB_SERIAL
-    ADB_SERIAL = ""
-    ADB_PATH = shutil.which("adb") or ""
-    if not ADB_PATH:
-        raise RuntimeError("adb was not found in PATH")
-    result = subprocess.run([ADB_PATH, "devices", "-l"], stdout=subprocess.PIPE,
-                            stderr=subprocess.STDOUT, text=True, encoding="utf-8",
-                            errors="replace", check=False)
-    if result.returncode:
-        raise RuntimeError(f"Could not list ADB devices:\n{result.stdout}")
-    devices = {}
-    for line in result.stdout.splitlines():
-        fields = line.split()
-        if len(fields) >= 2 and fields[1] in {"device", "offline", "unauthorized", "recovery", "sideload", "bootloader"}:
-            devices[fields[0]] = fields[1]
-    if requested:
-        if devices.get(requested) != "device":
-            raise RuntimeError(f"Requested device {requested} is not online/authorized.\n{result.stdout}")
-        ADB_SERIAL = requested
-    else:
-        candidates = [serial for serial, state in devices.items()
-                      if state == "device" and not serial.startswith("emulator-")]
-        if len(candidates) != 1:
-            raise RuntimeError("Expected one online non-emulator device; use --device-serial SERIAL to select.\n"
-                               + result.stdout)
-        ADB_SERIAL = candidates[0]
-    print(f"ADB device: {ADB_SERIAL}\nADB executable: {ADB_PATH}")
-
-
 def run_adb(*args: str, capture: bool = False) -> str:
-    if not ADB_SERIAL:
-        raise RuntimeError("ADB device has not been selected")
-    command = [ADB_PATH, "-s", ADB_SERIAL, *args]
+    command = ["adb", *args]
     completed = subprocess.run(
         command,
         stdout=subprocess.PIPE if capture else None,
@@ -192,10 +156,9 @@ def validate_inputs(args: argparse.Namespace) -> None:
     if invalid:
         raise RuntimeError("Android host binaries are not ELF64:\n" + "\n".join(invalid))
 
-    select_device(args.device_serial)
     state = run_adb("get-state", capture=True).strip()
     if state != "device":
-        raise RuntimeError(f"Selected ADB device {ADB_SERIAL} is unavailable: {state}")
+        raise RuntimeError(f"The default ADB device is unavailable: {state}")
 
 
 def deploy_runtime(device_root: str, skip_upload: bool) -> str:
@@ -701,8 +664,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--mode", choices=("batch", "single"), default="batch")
     parser.add_argument("--device-root", default=DEFAULT_DEVICE_ROOT)
-    parser.add_argument("--device-serial", "-s", default=os.environ.get("ANDROID_SERIAL", ""),
-                        help="Target ADB serial; otherwise select the only online non-emulator device.")
     parser.add_argument("--input", default=str(DEFAULT_INPUT))
     parser.add_argument("--reference", default=str(DEFAULT_REFERENCE))
     parser.add_argument("--output", default="")
